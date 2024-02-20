@@ -1,0 +1,3 @@
+aria-labelledby, aria-describedby, lock background, aria-haspopup, role, id, name, for
+در صورت نیاز کیبورد استفاده  کرد
+یا به کاربر اجازه بدیم با کیبورد بتونه کارهای لازم رو بکنه مثلا با زدن دکمه Esc بتونه از مودال خارج شه

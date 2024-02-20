@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.content{
+    background-color: rgb(43, 75, 64);
+}
+
+.square{
+    height: 120px;
+    width: 120px;
+    background-color: aqua;
+}

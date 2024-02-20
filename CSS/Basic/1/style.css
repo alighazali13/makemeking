@@ -1,0 +1,75 @@
+@font-face {
+    font-family: DigitalNumbers;
+    src: url(DigitalNumbers.woff);
+}
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(RobotoCondensed.woff);
+}
+
+
+*{
+    margin: 0;
+    font-size: 16px;
+}
+
+#app{
+    height: 70%;
+    min-height: 280px;
+    width: 80%;
+    min-width: 580px;
+    background-color: brown;
+}
+
+#result {
+    text-align: right;
+    font-size: 3.5em;
+    padding: 0 20px;
+    width: 100%;
+    height: 28%;
+    background-color: #EEE;
+    color: #444;
+    font-family: DigitalNumbers;
+}
+
+#keypad{
+    width: 100%;
+    height: 72%;
+    color: #DDD;
+    font-family: RobotoCondensed;
+}
+
+#nums{
+    height: 100%;
+    width: 54%;
+}
+
+.nums--lightGreen{
+    background-color: #19676E;
+}
+
+.nums--darkGreen{
+    background-color: #095057;
+}
+
+.key {
+    font-size: 1.5em;
+}
+
+#ops{
+    width: 46%;
+    height: 100%;
+}
+
+.ops--lightRed{
+    background-color: #D34E47;
+}
+
+.ops--mediumRed{
+    background-color: #C43E37;
+}
+
+.ops--darkRed{
+    background-color: #B52D26;
+}
+

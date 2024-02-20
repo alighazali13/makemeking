@@ -1,0 +1,43 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(18, 87, 70);
+}
+
+.card{
+    height: 375px;
+    width: 540px;
+    border: 1px solid black ;
+}
+
+
+
+.card__image__icon{
+    background-color: rgb(182, 182, 182);
+    right: -5px;
+    bottom: -5px;
+    transform: scaleX(-1);
+}
+
+.card__message{
+    direction: rtl;
+}
+
+.card__title {
+    font-size: 2.7rem;
+}
+
+
+.card__brief {
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+.footer{
+    gap: 5px;
+}

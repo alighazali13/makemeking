@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-color: rgba(73, 16, 73, 0.925);
+}
+
+.circle{
+    background-color: rgb(127, 190, 214);
+    height: 120px;
+    width: 120px;
+}
+
+.circle:hover{
+    transform: scale(1.3);
+}

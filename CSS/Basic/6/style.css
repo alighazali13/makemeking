@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(191, 237, 252);
+    font-weight: bold;
+}
+
+.rightbar__box{
+    border: 2px solid rgb(26, 145, 109);
+    height: 30px;
+}
+
+
+
+.leftbar__box{
+    border: 2px solid rgb(26, 145, 109);
+    height: 30px;
+}
+
+.progressbar{
+    background-color: rgb(40, 182, 139);
+    color: white;
+}
+
+.progressbar::after{
+    content: attr(progress-value);
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<section class="d-flex justify-center items-center w-full h-full">
+    <div id="app">
+        <div id="result" class="d-flex justify-center flex-col box-border">1428.57</div>
+        <div id="keypad" class="d-flex">
+            <div id="nums" class="d-grid grid-cols-3 grid-rows-4">
+                <div class="key d-flex justify-center items-center nums--darkGreen">7</div>
+                <div class="key d-flex justify-center items-center nums--lightGreen">8</div>
+                <div class="key d-flex justify-center items-center nums--darkGreen">9</div>
+                <div class="key d-flex justify-center items-center nums--lightGreen">4</div>
+                <div class="key d-flex justify-center items-center nums--darkGreen">5</div>
+                <div class="key d-flex justify-center items-center nums--lightGreen">6</div>
+                <div class="key d-flex justify-center items-center nums--darkGreen">1</div>
+                <div class="key d-flex justify-center items-center nums--lightGreen">2</div>
+                <div class="key d-flex justify-center items-center nums--darkGreen">3</div>
+                <div class="key d-flex justify-center items-center nums--lightGreen">0</div>
+                <div class="key d-flex justify-center items-center nums--darkGreen">.</div>
+                <div class="key d-flex justify-center items-center nums--lightGreen">=</div>
+            </div>
+            <div id="ops" class="d-grid grid-cols-2 grid-rows-4">
+                <div class="key d-flex justify-center items-center g-row1-col1  ops--lightRed ">×</div>
+                <div class="key d-flex justify-center items-center g-row2-col1  ops--darkRed  ">-</div>
+                <div class="key d-flex justify-center items-center g-srow3-col1 ops--mediumRed">+</div>
+                <div class="key d-flex justify-center items-center g-row1-col2  ops--darkRed  ">÷</div>
+                <div class="key d-flex justify-center items-center g-row2-col2  ops--lightRed ">CM</div>
+                <div class="key d-flex justify-center items-center g-row3-col2  ops--darkRed  ">M-</div>
+                <div class="key d-flex justify-center items-center g-row4-col2  ops--lightRed ">M+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
